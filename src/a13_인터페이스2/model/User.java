@@ -47,9 +47,12 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	public void showUser() {
-		System.out.println("User[username= "+ username + ", password= "+ password + ", name= "+ name +", email= "+ email +"]");
+
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", password=" + password + ", name=" + name + ", email=" + email + "]";
 	}
+	
+
 
 }

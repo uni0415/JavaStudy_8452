@@ -57,12 +57,17 @@ public class PageController {
 					//user배열의 해당 인덱스에 user객체가 없으면 user객체.showUser()메소드를 호출할 수 없기 때문에 continue로 넘김
 						continue;
 					}
-					users[i].showUser();
+					System.out.println(users[i]);
+					//users[i].showUser();
 				}
 			}else if(select == '2') {
 				String username = input.typedUsername(scanner);
 				User user = userService.getUser(username);
-				user.showUser();
+				if(user == null) {
+					System.out.println("해당 아이디로 회원 정보를 조회할 수 없습니다.");
+				}else {
+					System.out.println(user);				
+				}
 			}else if(select == 'b') {
 				System.out.println("메인 메뉴로 이동");
 				break;
