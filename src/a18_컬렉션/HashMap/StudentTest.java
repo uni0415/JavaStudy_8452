@@ -12,10 +12,10 @@ public class StudentTest {
 		service.addStudent("경운3", "ruddns@gmail.com", "부산 사하구");
 		
 		service.showStudentAll();
-		service.showStudentByName("경운4");
+		service.showStudentByName("경운");
 		service.updateStudentByName("경운", "ruddns@kakao.com", "부산 해운대구");
 		
-		service.deleteStudentByName("경운3");
+		service.deleteStudentByName("경운");
 		service.showStudentAll();
 	}
 }
