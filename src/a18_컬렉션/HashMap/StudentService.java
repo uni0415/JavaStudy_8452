@@ -2,7 +2,6 @@ package a18_컬렉션.HashMap;
 
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Set;
 
 public class StudentService {
 	private final HashMap<String, Student> studentMap;
@@ -55,32 +54,36 @@ public class StudentService {
 	public void updateStudentByName(String name, String email, String address) {
 		System.out.println();
 		if (studentMap.containsKey(name)) {
-			Student student = studentMap.get(name);
-			if(isEmpty(email)&&isEmpty(address)) {
+			if (isEmpty(email) && isEmpty(address)) {
 				System.out.println("수정할 정보가 없습니다.");
 				System.out.println();
-			}else {
-				if(isEmpty(email)) {
+			} else {
+				Student student = studentMap.get(name);
+				
+				if (isEmpty(email)) {
 					student.setAddress(address);
-				}else if(isEmpty(address)) {
+				} else if (isEmpty(address)) {
 					student.setEmail(email);
-				}else {
+				} else {
 					student.setAddress(address);
 					student.setEmail(email);
 				}
 				System.out.println(name + " 학생 정보가 수정되었습니다.");
+				System.out.println();
 			}
-			return;
+		} else {
+			System.out.println(name + "의 학생 정보가 존재하지 않습니다.");
+			System.out.println();
 		}
-		System.out.println(name + "의 학생 정보가 존재하지 않습니다.");
-		System.out.println();
-
 	}
 
 	// 학생 정보 삭제
 	public void deleteStudentByName(String name) {
-		if(studentMap.containsKey(name)) {
+		if (studentMap.containsKey(name)) {
 			studentMap.remove(name);
+		}else {
+			System.out.println(name + "의 학생 정보가 존재하지 않습니다.");
+			System.out.println();  
 		}
 	}
 }
