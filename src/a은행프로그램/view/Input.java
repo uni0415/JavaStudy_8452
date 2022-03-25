@@ -8,6 +8,5 @@ public interface Input {
 	public char typedSelect(Scanner scanner);
 	public User signUp(Scanner scanner);
 	public void showUsers(Scanner scanner);
-	public User login(Scanner scanner);
-	public void createAccount(Scanner scanner);
+	public User login(Scanner scanner);	
 }

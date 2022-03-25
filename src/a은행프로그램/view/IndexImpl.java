@@ -1,7 +1,5 @@
 package a은행프로그램.view;
 
-
-
 public class IndexImpl implements Index{
 	@Override
 	public void show() {
@@ -20,6 +18,7 @@ public class IndexImpl implements Index{
 		System.out.println("3. 출금");
 		System.out.println("4. 송금");
 		System.out.println("5. 대출");
+		System.out.println("6. 잔액 조회");
 		System.out.println("b. 로그아웃");
 	}
 }
