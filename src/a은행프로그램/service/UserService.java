@@ -3,7 +3,6 @@ package a은행프로그램.service;
 import java.util.Scanner;
 
 import a은행프로그램.data.User;
-import a은행프로그램.data.UserAccount;
 
 public interface UserService {
 	public void createAccount(Scanner scanner, User user);

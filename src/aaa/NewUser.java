@@ -18,7 +18,7 @@ public class NewUser {
 			if (select == '1') {
 				service.newUser();
 			}else if(select == '2') {
-				
+				service.userInfo();
 			}else if(select == '3') {
 				System.out.println("프로그램 종료");
 				break;
@@ -26,6 +26,7 @@ public class NewUser {
 				System.out.println("잘못 입력하셨습니다.");
 			}
 		}
+		scanner.close();
 	}
 
 	
