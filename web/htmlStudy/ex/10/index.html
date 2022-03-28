@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a div {
+            border: 1px solid red;
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+
+        .a div .c{
+            color: blue;
+        }
+
+        .b div {
+            border: 1px solid rgb(255, 196, 0);
+            width: 200px;
+            height: 200px;
+            background-color: white;
+        }
+        .b div :last-child {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div>
+            <p class="c">html</p>
+        </div>
+        <div>
+            <p>css</p>
+        </div>
+        <div>
+            <p>javascript</p>
+        </div>
+    </div>
+    <div class="b">
+        <div></div>
+        <div></div>
+        <input type="text">
+        <div>
+            <a href="">asd</a>
+            <a href="">asd</a>
+            <a href="">asd</a>
+        </div>
+        <input type="text">
+        <input type="text">
+    </div>
+</body>
+</html>

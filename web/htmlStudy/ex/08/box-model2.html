@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{ 
+            margin: 0 auto;
+            width: 500px;
+        }
+        .header { text-align: center;}
+        .main { 
+            padding: 0 68px;
+            background-color: rgb(236, 233, 229);
+        }
+
+        .lable-group { 
+            display: inline-block;
+            background-color: rgb(209, 204, 204);
+        }
+        .item-lable {
+           display: block;
+        }
+
+        .input-group {
+            display: inline-block;
+        }
+        .item-input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>회원가입</h1>
+        </div>
+        <div class="main">
+            <div class="lable-group">
+                <label for="username" class="item-lable">사용자아이디</label>
+                <label for="password" class="item-lable">비밀번호</label>
+                <label for="name" class="item-lable">이름</label>
+                <label for="email" class="item-lable">이메일</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="username" class="item-input" placeholder="사용자아이디">
+                <input type="password" id="password" class="item-input" placeholder="비밀번호">
+                <input type="text" id="name" class="item-input" placeholder="이름">
+                <input type="email" id="email" class="item-input" placeholder="이메일">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

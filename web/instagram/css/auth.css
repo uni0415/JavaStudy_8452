@@ -1,0 +1,46 @@
+body {
+    overflow-y: scroll;
+}
+
+.container {
+    display: flex;
+}
+
+.m-container {
+    display: flex;
+    width: 100%;
+}
+
+.a-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px auto 0px;
+    padding-bottom: 32px;
+    /* max-width: 935px; */
+    width: 935px;
+    height: 799px;
+    background-color: beige;
+}
+
+.l-content {
+    margin: 0px 32px 12px 0px;
+    width: 380px;
+    background-color: aquamarine;
+}
+
+.l-content-img {
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.r-content {
+    margin-top: 12px;
+    width: 350px;
+    height: 755px;
+    background-color: blueviolet;
+}
+
+.f-container {
+    display: flex;
+}

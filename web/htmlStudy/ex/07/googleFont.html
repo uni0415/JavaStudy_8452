@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Gugi&display=swap');
+        *{
+            font-family: 'Gugi', cursive;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        
+        .bg-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 1000px;
+            max-width: 1000px;
+            height: 600px;
+
+            overflow: hidden;
+        }
+
+        .bg-img{
+            width: 100%;
+        }
+
+        .test-text {
+            position: absolute;
+            transform: translateX(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            color: rgba(86, 10, 185, 0.384);
+        }
+        .test-text2 {
+            text-align: center;
+            line-height: 10px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 40px;
+            color: brown;
+            text-shadow: 5px -5px 1px aqua;
+        }
+        .spacing {
+            letter-spacing: 20px; word-spacing: 100px;
+        }
+        ul, li{
+            list-style: none;
+        }
+        table{
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+        <img src="images/bg.jpg" class="bg-img">
+        <p class="test-text">Do it! HTML, CSS, 자바스크립트</p>
+    </div>
+    <div>
+        <p class="test-text2">HTML</p>
+        <p class="test-text2">CSS</p>
+        <p class="test-text2">Javascript</p>
+    </div>
+
+    <div>
+        <a href="">네이버링크</a>
+    </div>
+
+    <div>
+        <p class="spacing">css javascript</p>
+    </div>
+    <div>
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ul>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td>c</td>
+                <td>c</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

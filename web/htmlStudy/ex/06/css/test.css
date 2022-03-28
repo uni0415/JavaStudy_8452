@@ -1,0 +1,19 @@
+
+#title{ 
+    color: cadetblue;
+    font-size: xx-large;
+}
+
+.title2 {
+    color: blue;
+    font-size: medium;
+    text-decoration: underline;
+}
+
+h1, .title3{
+    color: red;
+}
+
+.naver {
+    color: lime;
+}
