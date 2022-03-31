@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            width: 700px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="images/cup-1.png" alt="">
+        <button type="button" class="img-btn">사진 토글</button>
+    </div>
+    <script>
+        const imgBtn = document.querySelector(".img-btn");
+        const img = document.querySelector("img");
+        imgBtn.onclick = () => {
+            if(img.getAttribute('src') == 'images/cup-1.png'){
+                img.setAttribute('src', 'images/cup-2.png');
+            } else{
+                img.setAttribute('src', 'images/cup-1.png');
+            }
+        }
+    </script>
+</body>
+</html>

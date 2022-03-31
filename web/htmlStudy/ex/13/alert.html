@@ -7,7 +7,24 @@
 </head>
 <body>
 	<script>
-		alert("안녕하세요?");
+		let num1 = 10;
+		let num2 = 20;
+
+		console.log(num1 + num2);
+		alert("num1의 데이터 : " +num1);
+		alert("num2의 데이터 : " +num2);
+
+		let select = confirm("두 수를 더하시겠습니까?");
+		console.log(select);
+		if(select==true){
+			alert(num1 + num2);
+		}else{
+			alert("두 수를 더하지 않습니다.")
+		}
+
+		let input = prompt("데이터를 입력해주세요: ", "0");
+		console.log(input);
+
 	</script>
 </body>
 </html>
