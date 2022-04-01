@@ -1,0 +1,129 @@
+body {
+    overflow-y: scroll;
+    height: 2000px;
+}
+
+.nav-wrap {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    width: 975px;
+    height: 60px;
+}
+
+
+.nav-logo {
+    width: 333.5px;
+    height: 36px;
+}
+
+.nav-logo img {
+    cursor: pointer;
+    margin-top: 8px;
+    width: 110px;
+    height: 32px;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 268px;
+    height: 36px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0px 16px;
+    width: 268px;
+    height: 36px;
+}
+
+
+.search-input {
+    padding: 3px 16px;
+    width: 268px;
+    height: 36px;
+    background-color: #efefef;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+
+.search-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 236px;
+    height: 25px;
+}
+.search-box img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-right: 12px;
+    width: 19px;
+    height: 19px;
+}
+
+.search-box label {
+    display: inline-block;
+    max-width: 140px;
+    overflow: hidden;
+    height: 25px;
+    color: #8e8e8e;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: end;
+    width: 333.5px;
+    height: auto;
+}
+
+.nav-img-box {
+    display: flex;
+    justify-content: center;
+    padding-left: 24px;
+    width: 278px;
+    height: 24px;
+}
+
+.nav-img {
+    margin-left: 22px;
+    width: 24px;
+    height: 24px;
+}
+
+.nav-img img {
+    width: 100%;
+}
+
+.nav-img:first-child {
+    margin-left: 0;
+}

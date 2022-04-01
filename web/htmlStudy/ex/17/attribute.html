@@ -24,9 +24,19 @@
         <button type="button" class="img-btn">사진 토글</button>
     </div>
     <script>
+        const box = document.querySelector(".box");
         const imgBtn = document.querySelector(".img-btn");
         const img = document.querySelector("img");
-        imgBtn.onclick = () => {
+        box.style.backgroundColor == 'blue';
+        img.onclick = () => {
+            if(box.style.backgroundColor == 'blue'){
+                box.style.backgroundColor = 'red';
+            }else {
+                box.style.backgroundColor = 'blue';
+            }
+        }
+
+        imgBtn.onclick = (event) => {
             if(img.getAttribute('src') == 'images/cup-1.png'){
                 img.setAttribute('src', 'images/cup-2.png');
             } else{
