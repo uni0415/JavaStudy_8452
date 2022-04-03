@@ -3,23 +3,82 @@ body {
   height: 2000px;
 }
 
+#wrap {
+  margin-top: 60px;
+}
+
 .m-container {
   width: 100%;
 }
 
 .m-content {
+  display: flex;
+  justify-content: flex-start;
   margin: 0 auto;
-  margin-top: 30px;
+  padding-top: 30px;
   width: 935px;
   height: 100%;
 }
 
 .m-content-box {
-  padding-right: 28px;
+  margin-right: 28px;
   width: 614px;
 }
 
+.story-area {
+  margin: 0px 0px 24px;
+  padding: 16px 0;
+  width: 100%;
+  height: 119px;
+
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+}
+
+.story-area ul {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.story-area ul li {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.story-area ul li img {
+  width: 66px;
+  height: 66px;
+}
+
+.story-area ul li span {
+  text-align: center;
+  font-size: 11px;
+  color: #262626;
+}
+
+.recommend {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 828.5px;
+  top: 94px;
+  width: 293px;
+  height: auto;
+}
+
 .userProfileArea {
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.userProfileBox {
+  display: flex;
+  width: 293px;
+  height: 56px;
 }
 
 .profile-img {
@@ -34,7 +93,7 @@ body {
 .usernameBox {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   width: 199px;
 }
 
@@ -53,19 +112,203 @@ body {
   color: #8e8e8e;
 }
 
-.change {
-  border: none;
+.change-box {
+ display: flex;
+ align-items: center; 
   width: 24px;
-  height: 11px;
+  height: 56px;
   margin-left: 8px;
 }
 
-.change span {
-  color: rgba(0, 149, 146, 1);
+.change {
+  border: none;
+ background-color: #fafafa;
 }
+
+.change span {
+  display: inline-block;
+  width: 24px;
+  height: 11px;
+  color: #0095f6
+}
+
+.recommendArea {
+  margin: 12px 0;
+}
+
+.recommendHeaderBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  width: 100%;
+  height: 19px;
+}
+
+.recommendHeader {
+  height: 18px;
+  line-height: 15px;
+  color: #8e8e8e;
+}
+
+.recommendHeader span {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.recommendAllView {
+  position: relative;
+  top: -2px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.recommendAllView a {
+  font: inherit;
+}
+
+.recommend-box {
+  padding: 8px 0;
+  width: 100%;
+  height: auto;
+}
+
+.recommend-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+  width: 100%;
+  height: 48px;
+}
+
+.recommend-profile-img {
+  display: flex;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+}
+
+.recommend-profile-img img {
+  width: 32px;
+  height: 32px;
+}
+
+.recommend-username-box {
+  display: flex;
+  flex-direction: column;
+  width: 201px;
+  height: 30px;
+}
+
+.recommend-username-box a {
+  width: 86.95px;
+  height: 19px;
+
+  color: #262626;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.recommend-username-box span {
+  width: 100%;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #8e8e8e;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+}
+
+.follow-button {
+  border: none;
+  background-color: #fafafa;
+  color: #0095f6;
+}
+
+.recommend-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-bottom: 38px;
+  width: 293px;
+  height: 91px;
+}
+
+.footer-nav {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 54px;
+}
+
+.footer-nav ul {
+  margin-bottom: 3px;
+  width: auto;
+  height: auto;
+}
+
+
+.footer-nav ul li {
+  display: inline-block;
+  list-style: none;
+  width: auto;
+}
+
+.footer-nav ul li:not(:last-child)::after {
+  content: '\00B7';
+  color: #c7c7c7;
+  margin: 0 .25em 0 .25em;
+}
+
+
+.footer-nav ul li a {
+  color: #c7c7c7;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.copyright {
+  width: auto;
+  height: auto;
+}
+
+.copyright span {
+  font-size: 12px;
+  font-weight: 200;
+  color: rgba(199, 199, 199, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .nav-wrap {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 60px;
 }
