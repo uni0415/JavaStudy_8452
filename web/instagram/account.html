@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/account.css">
+    <script src="https://kit.fontawesome.com/bb961630db.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="container">
+        <nav class="nav-container">
+            <div class="nav-bar">
+                <h1 class="b-logo"><img src="images/logo.png"></h1>
+                <div class="nav-bar-search-box">
+                    <div class="nav-bar-search-input">
+                        <input type="search" placeholder="검색">
+                    </div>
+                </div>
+                <ul class="nav-bar-items">
+                    <li><i class="fa-solid fa-house"></i></li>
+                    <li><i class="fa-solid fa-square-plus"></i></li>
+                    <li>
+                        <div class="profile-img-border">
+                            <img src="images/instagram.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="m-container">
+            <div class="account-container">
+                <ul class="account-nav-list">
+                    <li class="not-selected"><a href="account.html">프로필 편집</a></li>
+                    <li class="not-selected"><a href="accountPassword.html">비밀번호 변경</a></li>
+                </ul>
+                <article class="account-items-area">
+                    <div class="profile-img-change">
+                        <div class="profile-img-box">
+                            <img src="images/profile.PNG">
+                            
+                        </div>
+                        <div class="profile-name-box">
+                            <h1>gye0un_un</h1>
+                            <button class="profile-img-change-button">
+                                프로필 사진 바꾸기
+                            </button>
+                        </div>
+                    </div>
+                    <form action="" class="form-box">
+                        <div class="name">
+                            <div>
+                                <span>이름</span>
+                            </div>
+                            <input type="text" class="name-input">
+                        </div>
+                        <div class="username">
+                            <div>
+                                <span>사용자 이름</span>
+                            </div>
+                            <input type="text" class="username-input">
+                        </div>
+                        <div class="website">
+                            <div>
+                                <span>웹사이트</span>
+                            </div>
+                            <input type="text" class="website-input">
+                        </div>
+                        <div class="introduce">
+                            <div>
+                                <span>소개</span>
+                            </div>
+                            <textarea name="introduce" id="" cols="30" rows="10" class="introduce-input">
+
+                            </textarea>
+                        </div>
+                        <div class="email">
+                            <div>
+                                <span>이메일</span>
+                            </div>
+                            <input type="text" class="email-input">
+                        </div>
+                        <div class="phone-number">
+                            <div>
+                                <span>전화번호</span>
+                            </div>
+                            <input type="text" class="phone-number-input">
+                        </div>
+                        <div class="gender">
+                            <div>
+                                <span>성별</span>
+                            </div>
+                            <input type="text" class="gender-input">
+                        </div>
+                        <div class="gender">
+                            <div></div>
+                            <button class="submit" type="submit">제출</button>
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </section>
+    <script src="js/account.js"></script>
+</body>
+
+</html>

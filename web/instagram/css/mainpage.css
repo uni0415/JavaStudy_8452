@@ -60,6 +60,180 @@ body {
   color: #262626;
 }
 
+.article-box {
+  margin: 30px 0;
+  width: 614px;
+  height: auto;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+}
+
+
+.feed-username-box {
+  display: flex;
+  padding: 14px 4px 14px 16px;
+  width: 614px;
+  height: 70px;
+
+}
+
+.feed-header {
+  display: flex;
+}
+
+.header-img-box img {
+  width: 42px;
+  height: 42px;
+}
+
+.feed-username {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  width: 500px;
+  height: 42px;
+}
+
+.feed-username a {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.feed-username span {
+  font-size: 12px;
+}
+
+.dot-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+}
+
+.article-content {
+  width: 100%;
+  height: 766.5px;
+  background-color: antiquewhite;
+}
+
+.comment-box {
+  width: 100%;
+  height: 265px;
+}
+
+.reaction-box {
+  margin-top: 4px;
+  padding: 6px 16px 8px;
+  display: flex;
+  width: 100%;
+  height: 54px;
+}
+
+.reaction-box div:last-child {
+  margin-left: 410px;
+}
+
+.reaction-box div button {
+  border: none;
+  background-color: white;
+}
+
+.reaction-box div button i {
+  padding: 10px 10px;
+  font-size: 24px;
+}
+
+.like-count {
+  display: flex;
+  margin-bottom: 8px;
+  padding: 0 16px;
+  
+  width: 100%;
+  height: 24px;
+}
+
+.like-count img {
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.like-count span {
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+  font-size: 14px;
+}
+
+.comment-items {
+  padding: 0 16px;
+  width: 100%;
+  height: 88px;
+}
+
+.feed-time {
+  margin-bottom: 16px;
+  padding-left: 16px;
+  width: 100%;
+  height: 18px;
+}
+
+.feed-time span {
+  font-size: 10px;
+  color: #8e8e8e;
+}
+
+.to-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 16px;
+  width: 100%;
+  height: 53px;
+}
+
+.to-comment-img-box {
+  padding: 8px 16px 8px 0;
+  width: 40px;
+  height: 40px;
+}
+
+.to-comment-img-box i {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+}
+
+.comment-text {
+  display: flex;
+  align-items: center;
+  width: 514px;
+  height: 40px;
+  line-height: 40px;
+}
+
+#comment {
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.posting {
+  color: rgba(0, 149, 246, 0.5);
+  width: 28px;
+  height: 18px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  background-color: white;
+}
+
 .recommend {
   display: flex;
   flex-direction: column;
