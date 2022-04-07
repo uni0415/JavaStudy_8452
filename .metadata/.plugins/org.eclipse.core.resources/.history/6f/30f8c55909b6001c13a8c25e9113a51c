@@ -1,0 +1,9 @@
+package student;
+
+public class Student {
+	private String schoolName;
+	private String name;
+	private String studentYear;
+	private String department;
+	private String grade;
+}

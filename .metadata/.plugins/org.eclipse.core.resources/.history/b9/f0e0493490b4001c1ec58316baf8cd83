@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%!
+	String name = "김경운";
+	String phone = "010-2623-8452";
+	String email = "rudd1242@naver.com";
+	
+	public void show() {
+		System.out.println(name);
+		System.out.println(phone);
+		System.out.println(email);
+	}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>hello JSP</h1>
+</body>
+</html>

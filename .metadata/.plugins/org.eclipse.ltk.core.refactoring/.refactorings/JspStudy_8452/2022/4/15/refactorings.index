@@ -1,0 +1,24 @@
+1649204236506	Move 'footer.jsp' to 'webapp'
+1649204536766	Rename resource 'body.jsp'
+1649204542551	Copy file
+1649206921503	Delete element
+1649206944443	Move 5 resources to 'include'
+1649206955431	Move 'loginController.jsp' to 'forward'
+1649208718123	Delete element
+1649211646370	Rename resource 'user-info-input.jsp'
+1649213346991	Rename resource 'controlloer'
+1649220606026	Copy file
+1649220608219	Copy file
+1649220612819	Copy file
+1649221807757	Delete element
+1649221811957	Delete element
+1649221814673	Delete element
+1649290776696	Delete element
+1649291136660	Rename resource 'signin.jsp'
+1649294906588	Copy file
+1649295285338	Rename resource 'student_info_forward.jsp'
+1649295335644	Move 'student_info_controller.jsp' to 'controller'
+1649295557421	Move 'student_info_input.jsp' to 'view'
+1649295559430	Move 'student_info_show.jsp' to 'view'
+1649301598122	Copy file
+1649301628798	Delete element
