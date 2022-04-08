@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,9 +8,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 	<h1>학점계산기</h1>
 	<button type="button" class="subject-plus">과목 추가</button>
-	<form action="/JspStudy_8452/study/grade/controller/grade_controller.jsp">
+	<form action="/JspStudy_8452/calc-grade" method="get">
 	<div>
 		<table>
 			<thead>
@@ -42,6 +44,6 @@
 	</div>
 	<button>계산</button>
 	</form>
-	<script type="text/javascript" src="js/grade.js"></script>
+	<script type="text/javascript" src="/JspStudy_8452/study/grade/view/js/grade.js"></script>
 </body>
 </html>

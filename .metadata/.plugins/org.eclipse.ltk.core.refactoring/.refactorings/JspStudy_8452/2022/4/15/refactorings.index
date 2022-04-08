@@ -22,3 +22,16 @@
 1649295559430	Move 'student_info_show.jsp' to 'view'
 1649301598122	Copy file
 1649301628798	Delete element
+1649377813572	Rename resource '채ㅜㅅ개ㅣㅣㄷㄱ.jsp'
+1649381540653	Copy file
+1649382084117	Rename package 'web.controller'
+1649382090364	Rename package 'controller'
+1649382205787	Delete element
+1649385562699	Rename type 'GradeServlet'
+1649388976592	Rename resource ' test.jsp'
+1649388997885	Copy file
+1649394274983	Rename resource 'login.jsp'
+1649395121673	Move 'login_fail.jsp' to 'study'
+1649395123588	Move 'login_success.jsp' to 'study'
+1649395139689	Move 'login_fail.jsp' to 'views'
+1649395141063	Move 'login_success.jsp' to 'views'

@@ -72,3 +72,7 @@
 0:0:0:0:0:0:0:1 - - [07/Apr/2022:12:36:17 +0900] "GET /JspStudy_8452/study/grade/controller/grade_controller.jsp?subject=a&grade=A%2B&time=3&subject=b&grade=A%2B&time=3&subject=c&grade=A%2B&time=3&subject=d&grade=A%2B&time=3&subject=e&grade=A%2B&time=3&subject=f&grade=A%2B&time=3 HTTP/1.1" 200 81
 0:0:0:0:0:0:0:1 - - [07/Apr/2022:12:37:12 +0900] "GET /JspStudy_8452/study/grade/view/grade_input.jsp HTTP/1.1" 200 1100
 0:0:0:0:0:0:0:1 - - [07/Apr/2022:12:37:15 +0900] "GET /JspStudy_8452/study/grade/controller/grade_controller.jsp?subject=a&grade=A%2B&time=3 HTTP/1.1" 200 82
+127.0.0.1 - - [07/Apr/2022:14:15:36 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:14:15:36 +0900] "GET /JspStudy_8452/study/grade/view/grade_input.jsp HTTP/1.1" 200 1100
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:14:15:36 +0900] "GET /JspStudy_8452/study/grade/view/js/grade.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Apr/2022:14:15:36 +0900] "GET /favicon.ico HTTP/1.1" 404 818
