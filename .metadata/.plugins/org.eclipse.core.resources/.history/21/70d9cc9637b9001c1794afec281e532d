@@ -1,0 +1,9 @@
+package db_study;
+
+public class UserDao {
+	private final DBConnectionMgr pool;
+	
+	public UserDao() {
+		
+	}
+}

@@ -1,0 +1,14 @@
+package db_study;
+
+import db.DBConnectionMgr;
+
+public class UserDaoTest {
+
+	public static void main(String[] args) {
+		DBConnectionMgr pool = DBConnectionMgr.getInstance();
+		
+		UserDao userDao = new UserDao(pool);
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package db_study;
+
+import db.DBConnectionMgr;
+
+public class UserDao {
+	private final DBConnectionMgr pool;
+	
+	public UserDao(DBConnectionMgr pool) {
+		this.pool = pool;
+	}
+}
