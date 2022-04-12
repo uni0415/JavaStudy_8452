@@ -10,7 +10,7 @@ public class UserDaoTest {
 	public static void main(String[] args) {
 		DBConnectionMgr pool = DBConnectionMgr.getInstance();
 		
-		UserDao userDao = new UserDao(pool);
+		UserDao2 userDao = new UserDao2(pool);
 		ArrayList<User> userList = userDao.getUserAll();
 	
 		for(User user : userList) {
@@ -18,7 +18,7 @@ public class UserDaoTest {
 		}
 		
 		System.out.println("=====================getUser()===========================");
-		User user = userDao.getUserByUsername("uni0416");
+		User user = userDao.getUserByUsername("uni0415");
 		System.out.println(user);
 	}
 

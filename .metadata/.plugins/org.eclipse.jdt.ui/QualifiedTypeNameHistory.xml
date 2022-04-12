@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="a은행프로그램.view.Index"/>
     <fullyQualifiedTypeName name="a13_인터페이스2.view.Input"/>
     <fullyQualifiedTypeName name="a은행프로그램.view.Input"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="a은행프로그램.view.InputImpl"/>
     <fullyQualifiedTypeName name="a은행프로그램.data.User"/>
     <fullyQualifiedTypeName name="a은행프로그램.view.IndexImpl"/>
@@ -14,9 +13,26 @@
     <fullyQualifiedTypeName name="a은행프로그램.service.UserServiceImpl"/>
     <fullyQualifiedTypeName name="a은행프로그램.controller.PageController"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="web.service.AuthService"/>
+    <fullyQualifiedTypeName name="db_study.UserDao"/>
+    <fullyQualifiedTypeName name="java.sql.SQLDataException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="db_study.UserDao2"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="web.service.AuthServiceImpl"/>
+    <fullyQualifiedTypeName name="db.DBConnectionMgr"/>
+    <fullyQualifiedTypeName name="repository.AuthDao"/>
+    <fullyQualifiedTypeName name="repository.AuthDaoImpl"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="repository.user.User"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>

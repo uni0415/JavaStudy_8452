@@ -19,3 +19,6 @@
 0:0:0:0:0:0:0:1 - - [11/Apr/2022:09:51:43 +0900] "POST /JspStudy_8452/signin HTTP/1.1" 200 -
 0:0:0:0:0:0:0:1 - - [11/Apr/2022:09:51:46 +0900] "GET /JspStudy_8452/signin HTTP/1.1" 200 1068
 0:0:0:0:0:0:0:1 - - [11/Apr/2022:09:51:50 +0900] "POST /JspStudy_8452/signin HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2022:13:02:19 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [11/Apr/2022:13:02:20 +0900] "GET /JspStudy_8452/WEB-INF/classes/repository/AuthDaoImpl.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [11/Apr/2022:13:02:20 +0900] "GET /favicon.ico HTTP/1.1" 404 818

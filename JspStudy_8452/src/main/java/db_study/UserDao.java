@@ -39,7 +39,7 @@ public class UserDao {
 						.update_date(rs.getTimestamp(7).toLocalDateTime()).build();
 			} catch (SQLDataException e) {
 				System.out.println("해당 아이디로 조회한 데이터가 없습니다.");
-				//user = null;
+				// user = null;
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -64,7 +64,7 @@ public class UserDao {
 		try {
 			con = pool.getConnection(); // 튜브 빌리고
 			sql = "select * from user_mst"; // 쿼리문 작성
-			pstmt = con.prepareStatement(sql);
+			pstmt = con.prepareStatement(sql); //쿼리문 전달
 			rs = pstmt.executeQuery(); // 쿼리 실행
 
 			while (rs.next()) {
