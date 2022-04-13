@@ -1,9 +1,0 @@
-package db_study;
-
-public class UserDaoTest {
-
-	public static void main(String[] args) {
-		UserDao userDao = new UserDao(null);
-	}
-
-}

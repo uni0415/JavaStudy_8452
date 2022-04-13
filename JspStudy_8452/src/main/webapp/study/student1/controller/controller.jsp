@@ -7,7 +7,7 @@
 	Student student1 = Student.builder()
 		.schoolName(request.getParameter("schoolName"))
 		.name(request.getParameter("name"))
-		.studentYear(request.getParameter("studentYear"))
+		.studentYear(Integer.parseInt(request.getParameter("studentYear")))
 		.department(request.getParameter("department"))
 		.grade(request.getParameter("grade"))
 		.build();

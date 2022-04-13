@@ -1,5 +1,0 @@
-package repository.user;
-
-public interface AuthDao {
-
-}
