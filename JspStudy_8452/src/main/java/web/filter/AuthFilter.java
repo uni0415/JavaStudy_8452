@@ -21,6 +21,11 @@ import repository.user.User;
 @WebFilter({ "/profile/*", "/board/*" })
 public class AuthFilter extends HttpFilter implements Filter {
    
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public void init(FilterConfig fConfig) throws ServletException {
 		
 	}

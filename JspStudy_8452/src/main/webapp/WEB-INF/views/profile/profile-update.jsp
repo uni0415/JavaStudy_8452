@@ -16,7 +16,7 @@ User principalUser = (User) session.getAttribute("principal");
 <body>
 	<div id="container">
 		<div class="mypage-items">
-			<form action="">
+			<form action="/JspStudy_8452/profile/update" method ="post">
 				<table>
 					<tr>
 						<td>사용자이름</td>
@@ -25,19 +25,20 @@ User principalUser = (User) session.getAttribute("principal");
 					</tr>
 					<tr>
 						<td>이름</td>
-						<td><input type="text" value="<%=principalUser.getName()%>"></td>
+						<td><input type="text" class="profile-input" name="name" value="<%=principalUser.getName()%>"></td>
 					</tr>
 					<tr>
 						<td>이메일</td>
-						<td><input type="text" value="<%=principalUser.getEmail()%>"></td>
+						<td><input type="text" class="profile-input" name="email" value="<%=principalUser.getEmail()%>"></td>
 					</tr>
 				</table>
 				<div>
-					<button type="button" class="profile-update-btn">회원 수정</button>
+					<button type="button" class="update-submit-btn">수정하기</button>
 					<button type="button" class="password-update-btn">비밀번호 변경</button>
 				</div>
 			</form>
 		</div>
 	</div>
+	<script type="text/javascript" src="/JspStudy_8452/static/js/profile-update.js"></script>
 </body>
 </html>

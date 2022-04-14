@@ -2,6 +2,7 @@
 const itemInputs = document.querySelectorAll(".item-input");
 const usernameInput = itemInputs[2].querySelector("input");
 const signupBtn = document.querySelector(".signup-button");
+
 let usernameCheckFlag = "true";
 
 signupBtn.onclick = () => {
