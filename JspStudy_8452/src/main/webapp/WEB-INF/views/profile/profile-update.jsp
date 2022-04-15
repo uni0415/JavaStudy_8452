@@ -39,6 +39,6 @@ User principalUser = (User) session.getAttribute("principal");
 			</form>
 		</div>
 	</div>
-	<script type="text/javascript" src="/JspStudy_8452/static/js/profile-update.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="/JspStudy_8452/static/js/profile_update.js"></script>
 </body>
 </html>

@@ -18,7 +18,7 @@ signupBtn.onclick = () => {
 		}
 	}
 	if(usernameCheckFlag == "true") {
-		alert("사용자 이름 중복확인을 해주세요.");
+		alert("사용자 이름체크를 완료해주세요.");
 	}else {
 		document.querySelector("form").submit();
 	}
@@ -40,22 +40,22 @@ function isEmpty(str) {
 usernameInput.onblur = () => {
 	let username = usernameInput.value;
 	if (isEmpty(username)) {
-		alert("사용자 아이디를 입력해주세요");
+		alert("사용자 이름을 입력해주세요.");
 		usernameCheckFlag = "true";
 	} else {
 		$.ajax({
 			type: "get",
-			url: "/JspStudy_8452/signup-username-check",
+			url: "/JspStudy_8452/auth/signup-username-check",
 			data: {
 				"username": username
 			},
 			dataType: "text",
 			success: function(data) {
 				if (data == "true") {
-					alert("이미 존재하는 사용자 이름입니다.");
+					alert("사용할 수 없는 사용자 이름입니다.");
 					usernameCheckFlag = "true";
 				} else {
-					alert("가입 가능한 사용자 이름입니다.");
+					alert("사용가능한 사용자 이름입니다.");
 					usernameCheckFlag = "false";
 				}
 				alert(data);

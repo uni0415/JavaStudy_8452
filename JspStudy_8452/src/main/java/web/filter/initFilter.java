@@ -19,7 +19,7 @@ import repository.UserDao;
 import repository.UserDaoImpl;
 
 
-@WebFilter("/*")
+@WebFilter(filterName = "servletContextInit")
 public class initFilter implements Filter {
 	private DBConnectionMgr pool;
 	private AuthDao authDao;
@@ -40,10 +40,8 @@ public class initFilter implements Filter {
 
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-		request.setCharacterEncoding("utf-8");
-		response.setCharacterEncoding("utf-8");
-		
-		
+		request.setCharacterEncoding("UTF-8"); 
+		response.setCharacterEncoding("UTF-8");
 				
 		chain.doFilter(request, response);
 		

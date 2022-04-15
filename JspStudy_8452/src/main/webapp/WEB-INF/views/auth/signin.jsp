@@ -27,10 +27,15 @@
 		height: 60px;
 	}
 	
-	.login-btn {
-		width: 200px;
+	.login-btn, .signup-btn {
+		
+		width: 90px;
 		border-radius: 3px;
 		border: 1px solid;
+	}
+	
+	.login-btn {
+		margin-right: 15px;
 	}
 	
 </style>
@@ -52,7 +57,14 @@
 				</div>
 			</div>
 			<button type="submit" class="login-btn">로그인</button>
+			<button type="button" class="signup-btn">회원가입</button>
 		</form>
 	</div>
+	<script type="text/javascript">
+		const signup_btn = document.querySelector(".signup-btn");
+		signup_btn.onclick = () => {
+			location.href="/JspStudy_8452/auth/signup";
+		}
+	</script>
 </body>
 </html>
