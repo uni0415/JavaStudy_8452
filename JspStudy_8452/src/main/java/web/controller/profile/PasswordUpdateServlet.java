@@ -1,6 +1,7 @@
 package web.controller.profile;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
@@ -40,8 +41,12 @@ public class PasswordUpdateServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 		User principalUser = (User)session.getAttribute("principal");
 		boolean result = profileService.updatepassword(principalUser.getUser_code(), password);
+		response.setContentType("text/html;charset=utf-8");
+		PrintWriter out = response.getWriter();
 		if(result == true) {
-			response.sendRedirect("/JspStudy_8452/profile/mypage");
+			out.print("<script>alert(\"비밀번호 변경 완료\"); location.href=\"/JspStudy_8452/profile/mypage\"</script>");
+		}else {
+			out.print("<script>alert(\"비밀번호 변경 실패\"); location.href=\"/JspStudy_8452/profile/mypage\"</script>");			
 		}
 	}
 }
