@@ -10,11 +10,12 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
-import javax.servlet.http.HttpServletRequest;
 
 import db.DBConnectionMgr;
 import repository.AuthDao;
 import repository.AuthDaoImpl;
+import repository.FileDao;
+import repository.FileDaoImpl;
 import repository.UserDao;
 import repository.UserDaoImpl;
 
@@ -24,6 +25,7 @@ public class initFilter implements Filter {
 	private DBConnectionMgr pool;
 	private AuthDao authDao;
 	private UserDao userDao;
+	private FileDao fileDao;
 	
 	
 	private static final long serialVersionUID = 1L;
@@ -32,9 +34,11 @@ public class initFilter implements Filter {
 		pool = DBConnectionMgr.getInstance();
 		authDao = new AuthDaoImpl(pool);
 		userDao = new UserDaoImpl(pool);
+		fileDao = new FileDaoImpl(pool);
 		ServletContext servletContext = fConfig.getServletContext();
 		servletContext.setAttribute("authDao", authDao);
 		servletContext.setAttribute("userDao", userDao);
+		servletContext.setAttribute("fileDao", fileDao);
 	}
     
 
