@@ -3,6 +3,11 @@ const passwordType = document.querySelector("input[type = 'password']");
 const phoneOrEmail_label = input_data[0].querySelector("label");
 const phoneOrEmail_input = input_data[0].querySelector("input");
 const password_visible = document.querySelector(".password-visible");
+const submitBtn = document.querySelector(".submit-btn");
+
+submitBtn.onclick = () => {
+	document.querySelector("form").submit();
+}
 
 
 password_visible.onclick = () => {
@@ -42,6 +47,8 @@ for (let i = 0; i < input_data.length; i++){
             inputMsg[i].innerHTML = `<i class="fa-solid fa-circle-check" style="color : #8e8e8e;"></i>`
         }
     }
+    
+
 
 
 }
